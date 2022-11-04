@@ -1,0 +1,62 @@
+/* Nabbar */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    flex-direction: column;
+    position: relative;
+}
+
+.navbar ol li a{
+    font-size: 1rem;
+    padding: 2px;
+}
+/* Home  */
+
+#home{
+height: 370px;
+margin-top: 0%;
+}
+
+#home::before{
+    height: 400px;
+    margin-top: 0%;
+    }
+/* Service */
+#service{
+flex-direction: column;
+}
+.service-container h1
+{
+    font-size: 20px;
+    /* padding: ; */
+}
+
+.box img{
+
+/* padding: auto;
+margin: auto; */
+height: auto;
+width: auto;
+}
+/* Clint */
+#client{
+/* overflow: hidden; */
+/* height: 100vh; */
+/* padding: auto; */
+flex-wrap: wrap;
+/* height: auto; */
+background-repeat: repeat-y;
+}
+
+
+
+/* Utility */
+
+.h-primary
+ 
+{
+    font-size: 2px;
+    padding: 23px 33px;
+}
